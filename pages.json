@@ -1,0 +1,159 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			// 首页
+			"path": "pages/index/index"
+		}, {
+			// 咨询
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "咨询列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			// 购物车
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			// 会员
+			"path": "pages/member/member",
+			"style": {
+				"navigationBarTitleText": "用户",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/goods/goods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品列表",
+				// 下拉刷新
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "联系我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pics/pics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商城分类",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/videos/videos",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }  
+        ,{
+            "path" : "pages/news-detail/news-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "咨询详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods-detail/goods-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "手机商城",
+		"navigationBarBackgroundColor": "#b50e03",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		// 默认字体颜色
+		"selectedColor": "#df4b38",
+		// tab 上的文字选中时的颜色
+		"list": [{
+				"text": "首页",
+				// tab 上按钮文字
+				"pagePath": "pages/index/index",
+				// 页面跳转路径
+				"iconPath": "static/icon/home.png",
+				// 图片路径，icon 大小限制为40kb，
+				"selectedIconPath": "static/icon/home-active.png"
+				// 选中时的图片路径，icon 大小限制为40kb
+			},
+			{
+				"text": "咨询",
+				// tab 上按钮文字
+				"pagePath": "pages/news/news",
+				// 页面跳转路径
+				"iconPath": "static/icon/news.png",
+				// 图片路径，icon 大小限制为40kb，
+				"selectedIconPath": "static/icon/news-active.png"
+				// 选中时的图片路径，icon 大小限制为40kb
+			},
+			{
+				"text": "购物车",
+				// tab 上按钮文字
+				"pagePath": "pages/cart/cart",
+				// 页面跳转路径
+				"iconPath": "static/icon/cart.png",
+				// 图片路径，icon 大小限制为40kb，
+				"selectedIconPath": "static/icon/cart-active.png"
+				// 选中时的图片路径，icon 大小限制为40kb
+			},
+			{
+				"text": "会员",
+				// tab 上按钮文字
+				"pagePath": "pages/member/member",
+				// 页面跳转路径
+				"iconPath": "static/icon/member.png",
+				// 图片路径，icon 大小限制为40kb，
+				"selectedIconPath": "static/icon/member-active.png"
+				// 选中时的图片路径，icon 大小限制为40kb
+			}
+
+		]
+	}
+}
